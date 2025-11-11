@@ -5,7 +5,7 @@ import * as yup from 'yup';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { Button, PrimaryButton, DangerButton } from '../ui/Button';
 import { TextInput, DateInput } from '../ui/Input';
-import { Alert, SuccessAlert, ErrorAlert } from '../ui/Alert';
+import Alert, { SuccessAlert, ErrorAlert } from '../ui/Alert';
 import MarkdownEditor from '../editor/MarkdownEditor';
 import { createPost, updatePost, Post } from '../../lib/posts';
 
